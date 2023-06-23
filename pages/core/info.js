@@ -78,8 +78,8 @@ const businessOpeningTimeInput = {
   satOpeningTime : "09:00",
   satClosingTime : "18:30",
 
-  sunOpeningTime : "",
-  sunClosingTime : "",
+  sunOpeningTime : "09:00",
+  sunClosingTime : "16:30",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,7 +91,7 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: Closed " + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
 }
 
 const changedInfo = {    
