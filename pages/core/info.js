@@ -78,8 +78,8 @@ const businessOpeningTimeInput = {
   satOpeningTime : "09:00",
   satClosingTime : "18:30",
 
-  sunOpeningTime : "09:00",
-  sunClosingTime : "16:30",
+  sunOpeningTime : "",
+  sunClosingTime : "",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,7 +91,7 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: Appointment only " + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
 }
 
 const changedInfo = {    
@@ -631,7 +631,7 @@ const pageContent = {
   contentOurPolicyDescription3 : "Scheduled appointments have a 15 minute grace period to allow for traffic snarls or parking difficulties. If you anticipate that you will be later than 15 minutes, please call ahead to see if we have the availability to complete your service in full. One late client can throw off our entire schedule and cause our other clients to be late for their commitments. Therefore, if you arrive more than 15 minutes late, we reserve the right to refuse partial or complete services.",
   contentOurPolicyDescription41 : "Appointments can be cancelled 24 hours in advance by calling or texting ",
   contentOurPolicyDescription42 : ". Please give at least 24 hours notice so that we have the opportunity to offer your reserved time to another client on our waiting list. We understand that sometimes emergencies happen, and it's not always possible to give adequate notice when you can't make an appointment. However, be aware that if you repeatedly cancel appointments without proper notice, we reserve the right to ask for a non-refundable deposit to secure your next appointment.",
-  contentOurPolicyDescription5 : "The Gift Card and its balance are valid for a period of six months from the date of purchase. Your Gift Card will cease to be valid six months from the date of purchase and you will no longer be entitled to use it. ",
+  contentOurPolicyDescription5 : "Gift vouchers are non-transferable and may not be returned or redeemed for cash or other vouchers. Advanced bookings required and voucher to be presented to Reception upon arrival. Folkestone Nail Spa will not accept responsibility for lost, stolen or damaged gift vouchers.",
 
   //service-1.js
   serviceCategory1Description : "Our " + changedInfo.businessAddressLevel2 + " nail salon offers a variety of nail extension services to enhance the length and beauty of your natural nails. We use high-quality products and skilled techniques to ensure a flawless and long-lasting result. Our experienced nail technicians can customize the length, shape, and color of your extensions to fit your unique style and preferences.",
@@ -1234,6 +1234,23 @@ const images = {
     service81Price : "10",
     service81Description : "",
 
+    service82: "Acrylic take off & Newset",
+    service82Time : "60 mins",
+    service82Price: "34",
+    service82Description : "",
+
+    service83: "Take off Acrylic and Redone a Newset with Shellac",
+    service83Time : "60 mins",
+    service83Price : "41",
+    service83Description : "",
+
+    service84: "Take off Acrylic and Redone a Newset on Feet with Normal Polish",
+    service84Time : "60 mins",
+    service84Price : "41",
+    service84Descrition : "",
+
+
+
 
 
 
@@ -1242,7 +1259,7 @@ const images = {
     }; 
   
   const serviceList2 = {
-    service1 : "Nail shape with Shellac polish",
+    service1 : "Nail shape with Shellac polish on hands",
     service1Time : "25 mins",
     service1Price : "20",
     service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
@@ -1280,7 +1297,7 @@ const images = {
     service9 : "Take off shellac and Redone Normal Polish on Hand",
     service9Time : "30 mins",
     service9Price : "20",
-    service9Description : "Our expert technicians will carefully remove your old shellac and flawlessly reapply a normal polish that will leave your hands looking and feeling refreshed. ",
+    service9Description : "Our expert technicians will carefully remove your old shellac and flawlessly reapply a normal polish that will leave your hands looking and feeling refreshed.",
 
     service10 : "Take off shellac and Redone Normal Polish on Feet",
     service10Time : "40 mins",
@@ -1296,6 +1313,16 @@ const images = {
     service12Time : "20 mins",
     service12Price : "8",
     service12Description : "Just take off shellac",
+
+    service13: "Take off Gel and Redone a Newset with Shellac on Hand",
+    service13Time : "40 mins",
+    service13Price : "23",
+    service13Description : "",
+
+    service14: "Take off Gel and Redone a Newset with Shellac on Feet",
+    service14Time: "45 mins",
+    service14Price: "26",
+    service14Description : "",
 
 
   };
@@ -1326,12 +1353,12 @@ const images = {
     service5Price : "40",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
 
-    service6 : "Shape & paint on hands",
+    service6 : "Shape & paint on hands with normal polish",
     service6Time : "15 mins",
     service6Price : "15",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
  
-    service7 : "Shape & paint on toes",
+    service7 : "Shape & paint on toes with normal polish",
     service7Time : "15 mins",
     service7Price : "18",
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
