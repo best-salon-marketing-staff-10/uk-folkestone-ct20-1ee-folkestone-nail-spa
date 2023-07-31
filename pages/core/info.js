@@ -120,7 +120,7 @@ const changedInfo = {
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải  
   geoLatitude: 51.08066583199208,
   geoLongitude: 1.179638981887365,
 
@@ -433,13 +433,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "",
+  schemaPersonReviewAuthorName: "nicole ellen",
   //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "",
+  schemaRatingValue: "5",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 51.549510560612475, 
-  schemaLongitude: 0.19998898496291942,
+  schemaGeoLatitude: 51.08066583199208, 
+  schemaLongitude: 1.179638981887365,
 
   schemaUrl: changedInfo.businessWebsite,
 
